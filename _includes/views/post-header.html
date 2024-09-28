@@ -3,6 +3,7 @@
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
   <div class="post-meta">
+    <!-- TODO: Persian date format: https://github.com/mehdisadeghi/jekyll-jalali -->
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
       <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}
@@ -12,6 +13,7 @@
     <span class="post-author left-vsplit"><i class="fa fa-pencil"></i> {{ page.author | escape }}</span>
     {%- endif -%}
 
+    <!-- TODO: Persian time format -->
     {% assign article = page.content %}
     {% assign lang = page.lang %}
     {%- include functions.html func='get_reading_time' -%}

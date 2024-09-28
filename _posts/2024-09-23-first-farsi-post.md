@@ -2,8 +2,8 @@
 layout: post
 title: اولین پست فارسی
 subtitle: اولین پست فارسی در وبلاگ اینسیچر!
-categories: markdown
-tags: [example, markdown]
+categories: مارک‌داون
+tags: [نمونه, پست جدید]
 ---
 
 این پست [Markdown][1] نشان می‌دهد مارک داون قادر به انجام چه کارهایی است!
