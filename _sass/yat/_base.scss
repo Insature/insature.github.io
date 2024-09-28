@@ -10,7 +10,13 @@ dl, dd, ol, ul, figure {
 
 @font-face {
   font-family: 'Sahel';
-  src: url('../assets/fonts/Sahel-VF.woff2') format('woff2');
+  src: url('../fonts/Sahel-VF.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/IRANYekanXVF.woff2') format('woff2');
   font-display: swap;
 }
 
