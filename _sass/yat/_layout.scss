@@ -588,6 +588,7 @@ html {
  * Page banner
  */
 .page-banner {
+  direction: rtl;
   display: block;
   position: relative;
   height: $banner-height;
@@ -659,10 +660,10 @@ html {
     .post-subtitle {
       @include relative-font-size(1.525);
       color: #ffffffcc;
-      padding-right: 280px;
+      padding-left: 280px;
 
       @include media-query($on-palm) {
-        padding-right: 0;
+        padding-left: 0;
       }
     }
 
@@ -677,7 +678,6 @@ html {
 
     .post-tags {
       color: #999;
-      // padding-right: 280px;
 
       @include media-query($on-palm) {
         padding-right: 0;

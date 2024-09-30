@@ -1,9 +1,9 @@
 ---
 layout: post
 title: عضویت در آزمایشگاه اینسیچر
-subtitle: به خانواده‌ی اینسیچر بپیوندید! 
+subtitle: به خانواده‌ی ما بپیوندید
 tags: [ثبت‌نام , عضویت]
-banner: https://iili.io/dZp80KJ.jpg
+banner: https://i.imghippo.com/files/q3MEX1727636303.jpg
 ---
 
 ![Insature](https://iili.io/dZp80KJ.jpg)
