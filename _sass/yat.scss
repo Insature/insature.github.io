@@ -2,8 +2,9 @@
 
 // Define defaults for each variable.
 
-$base-font-family: IranYekan, Camberia Math, sans-serif, !default;
-// $base-font-family: Sahel, Helvetica Neue, Helvetica, Arial, sans-serif, !default;
+$base-font-family: IranYekan, Helvetica Neue, Helvetica, Arial, sans-serif, !default;
+$heading-font-family: Sahel, Cambria Math, serif, !default;
+
 $base-font-size: 14px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
